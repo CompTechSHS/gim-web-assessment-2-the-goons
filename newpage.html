@@ -1,6 +1,6 @@
 <html>
     <head>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles2.css">
     </head>
     <body>
 <h1>my new page</h1>
@@ -8,5 +8,29 @@
 <p>maybe we should pivot to gaming</p>
 <p><span>reason : i don't know nothing about sport</span></p>
 <p>thoughts?</p>
+<br> <br>
+                <button id="button"><span class="buttond">hello dont click me</span></button>
+<br> <br> <br>
+                <p>clicks</p>
+                <h2 id="clicky">0</h2>
     </body>
+
+                <script>
+                    
+                    function hi() {
+                        button.textContent = "ow"
+                        button.className = "buttond"
+                        clicks = ++clicks;
+                        clicky.textContent = clicks;
+                        setTimeout(back, 300)
+                    }
+
+                    function back() {
+                        button.textContent = "why :("
+                    }
+
+                    clicks = 0;
+                    button.onclick = hi;
+                </script>
+
 </html>

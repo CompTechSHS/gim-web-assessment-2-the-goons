@@ -1,0 +1,33 @@
+/* ========================
+   BASIC RESET
+   ------------------------
+   Remove default browser margins, paddings, and set consistent box-sizing.
+   ======================== */
+* {
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 0;
+  text-align: center;
+}
+
+/* ========================
+   BODY
+   ------------------------
+   Set the overall font, text colour, background colour and line spacing.
+   ======================== */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: #fff;
+  line-height: 1.5;
+}
+
+span {
+  color: red;
+}
+
+.buttond {
+  color: green;
+  font-size: 45px;
+  background-color: red;
+}
