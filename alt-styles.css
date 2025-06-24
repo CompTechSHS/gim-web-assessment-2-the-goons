@@ -21,7 +21,7 @@ body {
    Darker background for header and footer to distinguish sections.
    ------------------------------------ */
 header, footer {
-  background: #333;
+  background: #3333;
   text-decoration: none;
 }
 
