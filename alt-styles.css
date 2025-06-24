@@ -22,6 +22,7 @@ body {
    ------------------------------------ */
 header, footer {
   background: #333;
+  text-decoration: none;
 }
 
 /* ------------------------------------
@@ -42,7 +43,8 @@ header .logo {
    Make nav links stand out with the accent colour.
    ------------------------------------ */
 nav ul li a {
-  color: #ff6347;
+  color: #47ff50;
+  text-decoration: d;
 }
 
 /* ------------------------------------
@@ -64,5 +66,5 @@ nav ul li a {
    Accent borders around featured images to match theme colour.
    ------------------------------------ */
 .hero img {
-  border: 5px solid #ff6347;
+  border: 5px solid #47ff5f;
 }
