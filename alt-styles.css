@@ -21,7 +21,7 @@ body {
    Darker background for header and footer to distinguish sections.
    ------------------------------------ */
 header, footer {
-  background: #3333;
+  background: #333;
   text-decoration: none;
 }
 
@@ -45,6 +45,18 @@ header .logo {
 nav ul li a {
   color: #47ff50;
   text-decoration: d;
+}
+
+a:link {
+  color: limegreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lime;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 /* ------------------------------------
