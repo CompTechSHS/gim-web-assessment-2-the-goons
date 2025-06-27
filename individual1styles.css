@@ -13,3 +13,26 @@
     ul {
       list-style-type: square;
     }
+    header {
+      background-color: #2b2b2b;
+      height:20px;
+      width:100%;
+      word-spacing: 5px;
+    }
+
+    nav ul li a {
+      color: #47ff50;
+      text-decoration: d;
+    }
+
+    a:link {
+      color: limegreen;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: lime;
+      background-color: transparent;
+      text-decoration: underline;
+    }
