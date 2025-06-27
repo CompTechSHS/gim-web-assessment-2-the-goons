@@ -41,6 +41,7 @@ span {
     header {
       background-color: #2b2b2b;
       height:25px;
+            line-height: 25px;
       width:100%;
       word-spacing: 5px;
       text-align: center;
