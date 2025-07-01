@@ -66,3 +66,9 @@ span {
       background-color: transparent;
       text-decoration: underline;
     }
+
+    a:visited {
+      color: limegreen;
+      background-color: transparent;
+      text-decoration: none;
+    }
