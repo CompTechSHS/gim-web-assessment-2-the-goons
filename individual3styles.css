@@ -11,6 +11,8 @@
   margin: 5px;
   padding: 0;
   text-align: center;
+  font-family: comic sans ms;
+  font-weight: lighter;
 }
 
 /* ========================
@@ -20,8 +22,8 @@
    ======================== */
 body {
   font-family: Arial, sans-serif;
-  color: #333;
-  background: #fff;
+  color: #eeeeee;
+  background: #333;
   line-height: 1.5;
 }
 
@@ -42,9 +44,9 @@ span {
 }
 
     header {
-      background-color: #2b2b2b;
+      background-color: #222222;
       height:25px;
-            line-height: 25px;
+      line-height: 25px;
       width:100%;
       word-spacing: 5px;
       text-align: center;
@@ -72,3 +74,28 @@ span {
       background-color: transparent;
       text-decoration: none;
     }
+
+li {
+  list-style: outside;
+  margin-left: 150px;
+  background-color: #00d80b;
+  list-style: square;
+  width: 150px;
+  color: black;
+  border-radius: 5px;
+}
+
+p {
+  background-color: #393939;
+  padding:2px;
+  border-radius: 4px;
+}
+
+h2 {
+  background-color: #393939;
+  padding:2px;
+  border-radius: 4px;
+  width: 300px;
+  margin-left: 75px;
+  text-align: center;
+}
