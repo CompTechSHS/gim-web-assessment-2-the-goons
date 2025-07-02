@@ -22,6 +22,7 @@ body {
    ------------------------------------ */
 header, footer {
   background: #333;
+  text-decoration: none;
 }
 
 /* ------------------------------------
@@ -42,8 +43,41 @@ header .logo {
    Make nav links stand out with the accent colour.
    ------------------------------------ */
 nav ul li a {
-  color: #ff6347;
+  color: #47ff50;
+  text-decoration: d;
 }
+
+header {
+      background-color: #2b2b2b;
+      height:25px;
+      width:100%;
+      line-height: 25px;
+      word-spacing: 5px;
+      text-align: center;
+    }
+
+    nav ul li a {
+      color: #47ff50;
+      text-decoration: d;
+    }
+
+    a:link {
+      color: limegreen;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: lime;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    a:visited {
+      color: limegreen;
+      background-color: transparent;
+      text-decoration: none;
+    }
 
 /* ------------------------------------
    GRID LAYOUT FOR CONTAINER
@@ -64,5 +98,5 @@ nav ul li a {
    Accent borders around featured images to match theme colour.
    ------------------------------------ */
 .hero img {
-  border: 5px solid #ff6347;
+  border: 5px solid #47ff5f;
 }
